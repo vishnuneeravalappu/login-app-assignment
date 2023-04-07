@@ -1,0 +1,28 @@
+.App {
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signUp {
+  display: block;
+  width: inherit;
+  text-align: center;
+}
+.signUp > p {
+  margin-right: 10px;
+  display: inline;
+}
+.signUp > a {
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    background-image: url("./images/mob-background.png");
+    background-size: contain;
+    min-width: 200px;
+  }
+}
