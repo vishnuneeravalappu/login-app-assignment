@@ -22,3 +22,5 @@ export const FormInput = (props) => {
     </div>
   );
 };
+
+// onBlur event added to validate the fields and return whether inputs are satisfactory even before clicking onSubmit()
